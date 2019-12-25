@@ -1,0 +1,125 @@
+.login{
+  z-index: 20
+}
+
+body {
+  font-family: sans-serif;
+  background: #303030;
+  color: #46485c;
+}
+
+h3 {
+  color: #46485c;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login {
+  width: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+
+input[type="text"], input[type="password"] {
+  width: 250px;
+  padding: 25px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  outline: none;
+  color: #b6b8c9;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  margin-top: 2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #46485c;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 3px solid #252730;
+  box-shadow: 0px 0px 0px 2px #46485c;
+}
+
+input[id="login"] {
+  margin-top: 10px;
+  background: #67c26f;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+  text-align: center;
+}
+
+input[type="button"] {
+  color: transparent;
+  text-shadow: 0 0 0 white;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+input[id="login"]:hover {
+  background: #7FCC86;
+}
+input[id="login"]:active {
+  transform: translateY(2px);
+}
+
+input[id="signup"] {
+  background: #67c26f;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  text-align: center;
+}
+
+input[id="signup"]:hover {
+  background: #7FCC86;
+}
+
+input[id="signup"]:active {
+  transform: translateY(2px);
+}
+
+::-webkit-input-placeholder {
+  color: #46485c;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: all 0.2s linear;
+  transform: translate(10px, 0);
+  opacity: 0;
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  width: 75%;
+}
+
+#loginHeader {
+  color: #67c26f;
+}
