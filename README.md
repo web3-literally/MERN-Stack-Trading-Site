@@ -8,7 +8,7 @@ A bot that continuously queries cryptocurrency exchanges for prices to check for
 ## Setup
 
 1. clone repo with git or download contents
-`git clone https://github.com/Vikrammel/EasyTrage.git`
+`git clone https://github.com/bear-gold/MERN-Stack-Trading-Site.git`
 
 2. Install Docker and docker-compose
 
